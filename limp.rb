@@ -2,16 +2,16 @@
 class Limp < Formula
   desc "limp is a tool which LIMits standard input which has been Piped to it"
   homepage "https://github.com/nderjung/limp/"
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/nderjung/limp/releases/download/v0.1.0/limp_0.1.0_darwin_amd64.tar.gz"
-    sha256 "1b0b11555c59e11416a08443e0c616c47bf260549c0e3897716d3b2a9759bf22"
+    url "https://github.com/nderjung/limp/releases/download/v0.1.1/limp_0.1.1_darwin_amd64.tar.gz"
+    sha256 "c051f21db8785cfd7eddbfd4fa8ca275c6868619b5a11de8c9cca977318e2a9a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/nderjung/limp/releases/download/v0.1.0/limp_0.1.0_linux_amd64.tar.gz"
-      sha256 "dfaaf9a8164bff413d596012c792bd2ee3a8f889fb59103eb8b9674634b5e17d"
+      url "https://github.com/nderjung/limp/releases/download/v0.1.1/limp_0.1.1_linux_amd64.tar.gz"
+      sha256 "6a064ba88b624ebed50e1792d9935edfb62f2b1ec3c5c41af25e828831033bb3"
     end
   end
 
