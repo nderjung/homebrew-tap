@@ -7,11 +7,11 @@ class Limp < Formula
 
   if OS.mac?
     url "https://github.com/nderjung/limp/releases/download/v0.1.1/limp_0.1.1_darwin_amd64.tar.gz"
-    sha256 "c051f21db8785cfd7eddbfd4fa8ca275c6868619b5a11de8c9cca977318e2a9a"
+    sha256 "83a80273a44c92ef444ee0135f95c7fa6ee5bef7463bd0e26319faa0496fe68f"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/nderjung/limp/releases/download/v0.1.1/limp_0.1.1_linux_amd64.tar.gz"
-      sha256 "6a064ba88b624ebed50e1792d9935edfb62f2b1ec3c5c41af25e828831033bb3"
+      sha256 "04c2970c1fee69538c0e28aa17c538dd6604c96bf73620b025b01925ab3b3d81"
     end
   end
 
